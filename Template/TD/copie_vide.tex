@@ -1,0 +1,108 @@
+\documentclass[12pt,a4paper,fleqn]{article}
+
+%%%%%%%%%%%%%%%%%%%%%% LES PACKAGES
+\input{packages_MP2I.tex}
+
+%%%%%%%%%%%%%%%%%%%%%% MISE EN FORME
+\input{mise_en_forme_MP2I.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%% LA PALETTE DE COULEURS
+\input{palette_aef.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%% LES COMMANDES 
+\input{commandes_MP2I.tex}
+
+\PassOptionsToPackage{svgnames}{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagestyle{fancy} %active les pieds de pages
+\tcbset{colback=red!5!white,colframe=red!75!black,fonttitle=\bfseries}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titreCopie{TD Maths}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Calcul littéral}
+\subsection{Simplification d'expressions}
+\begin{enumerate}
+    \item \(3x + 2y - 5x + 4y\)
+    \item \(2a - 3b + 5a + b\)
+    \item \(4m - 2n + 7m - 3n\)objet
+\end{enumerate}
+\subsection{Factorisation}
+\begin{enumerate}
+    \item  \(6x + 9y\)
+    \item  \(15a - 5b\)
+    \item  \(10m^2 - 5n\)
+\end{enumerate}
+\subsection{Développement}
+\begin{enumerate}
+    \item \((x + 3)(x - 2)\)
+    \item \((2a - 5)(3a + 4)\)
+    \item \((3m + 2)(m - 1)\)
+\end{enumerate}
+\subsection{Résolution d'équations}
+\begin{enumerate}
+    \item \(2x + 5 = 3x - 1\)
+    \item \(4(x - 2) = 12\)
+    \item \(2(3y + 1) = 5y - 3\)
+\end{enumerate}
+\subsection{Problème}
+Un rectangle a une aire $A$ donnée par \(A = 3x^2 + 5x - 2\). Si la longueur du rectangle est \(x + 2\), quelle est l'expression pour la largeur du rectangle ? Quelle est la largeur si $x=3$ ?
+
+\section{Dérivation}
+\subsection{Dérivées de fonctions simples}
+\begin{enumerate}
+ \item \(f(x) = 3x^2 - 4x + 1\)
+ \item \(g(x) = \sqrt{x} + 2x\)
+ \item \(h(x) = e^x - \ln(x)\)
+\end{enumerate}
+\subsection{Règles de dérivation}
+\begin{enumerate}
+    \item  \(f(x) = 4x^3 + 2x^2 - 5x + 1\)
+    \item  \(g(x) = \frac{2}{x} + \sin(x)\)
+    \item  \(h(x) = e^{2x} \cdot \cos(x)\)
+\end{enumerate}
+\subsection{Dérivées successives}
+\begin{enumerate}
+    \item \(f(x) = x^4 - 2x^3 + 3x^2 - x + 1\)
+    \item  \(g(x) = \frac{1}{x^2} + \cos(x)\)
+\end{enumerate}
+\subsection{Problème}
+\subsubsection{} La fonction de coût d'une entreprise est donnée par \(C(x) = 2x^2 + 3x + 5\), où \(x\) est la quantité produite. Trouver la dérivée de la fonction coût par rapport à \(x\).
+\subsubsection{} La position d'une particule est donnée par la fonction \(s(t) = 4t^2 - 3t + 1\), où \(t\) est le temps en secondes. Trouver la vitesse de la particule en fonction du temps en calculant la dérivée de \(s(t)\).
+\subsection{}
+Soit \(f(x) = x^3 - 3x^2 + 2x + 5\). Trouver les points où la tangente à la courbe de \(f(x)\) est horizontale.
+\section{Fonction $e^x$ et $ln$}
+\subsection{Exponentielle}
+\begin{enumerate} 
+\item  Soit \(f(x) = 2^x\). Calculer \(f(0)\), \(f(1)\), et \(f(2)\).
+\item  Résoudre l'équation \(2^x = 8\).
+\item  Simplifier l'expression \(\frac{2^{x+1}}{2^x}\).
+\end{enumerate}
+\subsection{Logarithme}
+\begin{enumerate}
+\item Résoudre l'équation \(\log_2(x) = 3\).
+\item Simplifier l'expression \(\log_3(9) - \log_3(3)\).
+\item Si \(\log_a(b) = 2\), quelle est la valeur de \(a\)?
+\end{enumerate}
+\subsection{Applications}
+\subsubsection{} 
+La population d'une ville suit une croissance exponentielle de \(P(t) = 1000 \times 1.02^t\), où \(t\) est le nombre d'années depuis aujourd'hui. Quelle sera la population dans 5 ans?
+\subsubsection{} Un investissement initial de 5000 € augmente de 8\% chaque année. Modélisez la valeur de l'investissement en fonction du temps avec une fonction exponentielle.
+\subsubsection{} Une substance radioactive perd 10\% de son activité chaque année. Si l'activité initiale est de 1000 Bq, quelle sera l'activité après 3 ans?
+\subsection{Plusieurs fonctions}
+\begin{enumerate}
+    \item  Soit \(g(x) = e^{2x}\) et \(h(x) = \ln(x)\). Calculer \(g(1)\) et \(h(e)\).
+    \item  Résoudre l'équation \(e^{2x} = 16\).
+\end{enumerate}
+\subsection{}
+\begin{enumerate}
+    \item  Représenter graphiquement la fonction \(y = e^x\) sur l'intervalle \(\mathbb{R}\) ainsi que les éventuelles asymptotes, et la tangeante en 0.
+\item  Déterminer la ou les asymptotes de la fonction \(y = \ln(x)\).
+\item  Soit \(k(x) = \frac{e^{2x} - 1}{e^x + 1}\). Simplifier \(k(x)\).
+$$log_b(x)=\frac{ln(x)}{ln(b)}$$
+\end{enumerate}
+\end{document}
+
